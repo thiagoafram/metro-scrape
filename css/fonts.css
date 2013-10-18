@@ -1,0 +1,18 @@
+/* These declarations are included like this because we only want to load fonts on bigger screen sizes, and
+putting @font-face inside a media query isn't strictly legal and is ignored by IE9 and some FF. */
+
+@font-face {
+  font-family: 'CorpidRegular';
+  src: url('../fonts/corpid-regular/corpidc4scd-regular-webfont.eot');
+  src: url('../fonts/corpid-regular/corpidc4scd-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/corpid-regular/corpidc4scd-regular-webfont.woff') format('woff'), url('../fonts/corpid-regular/corpidc4scd-regular-webfont.otf') format('opentype'), url('../fonts/corpid-regular/corpidc4scd-regular-webfont.ttf') format('truetype'), url('../fonts/corpid-regular/corpidc4scd-regular-webfont.svg#CorpidC4SCdRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CorpidBold';
+  src: url('../fonts/corpid-bold/corpidc4scd-bold-webfont.eot');
+  src: url('../fonts/corpid-bold/corpidc4scd-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/corpid-bold/corpidc4scd-bold-webfont.woff') format('woff'), url('../fonts/corpid-bold/corpidc4scd-bold-webfont.otf') format('opentype'), url('../fonts/corpid-bold/corpidc4scd-bold-webfont.ttf') format('truetype'), url('../fonts/corpid-bold/corpidc4scd-bold-webfont.svg#CorpidC4SCdBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
